@@ -9,10 +9,6 @@ RUN apt-get update && apt-get install -y \
 	libssl-dev \
 	libcurl4-gnutls-dev \
 	libgit2-dev \
-	libssh2-1-dev	
-
-# Install R Packages
-
-RUN R -e "install.packages(c('devtools'), repos = 'http://cran.wustl.edu/')"
+	libssh2-1-dev
 
 # Still Needs to Be Tested
